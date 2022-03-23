@@ -1,8 +1,47 @@
 body {
-    background-color: rgb(172, 169, 169);
+    background-color: rgb(143, 236, 216);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 6em;
 }
 
 a {
     text-decoration: none;
+    color: rgb(87, 85, 85);
+}
+
+h1, h3 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+div {
+    border-radius:5px;
+}
+
+div a {
+    /*border: solid black 1px;*/
+    margin: 2em auto;
+    padding: 0 10%;
+    font-size:larger
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 3em auto;
+    border-radius: 30px;
+}
+
+hr {
+    border: 0.5px solid black;
 }
